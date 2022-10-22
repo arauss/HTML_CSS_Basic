@@ -1,0 +1,76 @@
+/*
+
+Regra de agrupamento css
+
+  [posicionamento]                  |  display, flex-direction, justify-content...
+  [espaçamentos]                    |  margin, padding.
+  [tamanho]                         |  width, height.
+  [plano de fundo]                  |  background-image, background-position
+  [bordas]                          |  border-radius, border.
+  [fonte e propriedades de texto]   |  font-family, font-size, font-weight.
+  [animações]
+
+*/
+
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+
+div {
+  width: 592px;
+  margin: auto;
+}
+
+h1 {
+  font-family: 'Inter', sans-serif;
+  font-weight: normal;
+  font-size: 49px;
+}
+
+h1 span {
+  font-weight: bold;
+}
+
+p {
+  margin-bottom: 32px;
+
+  color: #7d7987;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+p strong {
+  font-weight: bold;
+}
+
+.line {
+  height: 0px;
+  width: 568px;
+  border: 1px solid #ECEFF2;
+}
+
+span {
+  color: #FF9900;
+}
+
+footer div{
+  margin-top: 24px;
+  display: flex;
+  flex-direction: row;
+
+  width: 200px;
+  justify-content: space-between;
+}
+
+footer div a {
+  color: #FF9900;
+  size: 14px;
+}
+
+footer img {
+  position: fixed;
+  right: 0px;
+  bottom: 0px;
+}
